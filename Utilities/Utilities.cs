@@ -6,7 +6,7 @@ namespace MoreEffectiveCS
 {
     public static class Utilities
     {
-        public static IEnumerable<TResult> Generate<TResult> (int number, Func<TResult> generator)
+        public static IEnumerable<TResult> Generator<TResult> (int number, Func<TResult> generator)
         {
             for (int i = 0; i < number; i++)
             {
